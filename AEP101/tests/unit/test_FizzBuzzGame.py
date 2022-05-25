@@ -30,10 +30,15 @@ def test_should_report_BuzzWhizz_when_reporting_given_mod_by_5_and_7():
     fbw = FizzBuzzWhizz(70)
     assert fbw.game_num() == "BuzzWhizz"
 
-#
-# def test_should_report_self_when_reporting_given_not_mod_by_3_and_5_and_7():
-#     fbw = FizzBuzzWhizz(4)
-#     assert fbw.game_num() == 4
+
+def test_should_report_self_when_reporting_given_not_mod_by_3_and_5_and_7():
+    fbw = FizzBuzzWhizz(4)
+    assert fbw.game_num() == 4
+
+# def test_should_report_Fizz_when_reporting_given_contains_3():
+#     fbw = FizzBuzzWhizz(13)
+#     assert fbw.game_num() == "Fizz"
+
 
 
 

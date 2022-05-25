@@ -18,7 +18,7 @@ class FizzBuzzWhizz:
             return "Buzz"
         if self.is_divisible_by_7():
             return "Whizz"
-        return self.game_num
+        return self.number
 
     def is_divisible_by_3(self):
         return self.number % 3 == 0
@@ -28,4 +28,5 @@ class FizzBuzzWhizz:
 
     def is_divisible_by_7(self):
         return self.number % 7 == 0
+
 
