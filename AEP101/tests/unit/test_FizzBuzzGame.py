@@ -14,6 +14,10 @@ def test_should_report_Whizz_when_reporting_given_mod_by_7():
     fbw = FizzBuzzWhizz(49)
     assert fbw.game_num() == "Whizz"
 
+def test_should_report_FizzBuzz_when_reporting_given_mod_by_3_and_5():
+    fbw = FizzBuzzWhizz(15)
+    assert fbw.game_num() == "FizzBuzz"
+
 
 
 

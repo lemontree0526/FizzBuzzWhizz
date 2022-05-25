@@ -4,6 +4,8 @@ class FizzBuzzWhizz:
         self.number = number
 
     def game_num(self):
+        if self.is_divisible_by_3() and self.is_divisible_by_5():
+            return "FizzBuzz"
         if self.is_divisible_by_3():
             return "Fizz"
         if self.is_divisible_by_5():
