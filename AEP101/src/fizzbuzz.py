@@ -10,6 +10,8 @@ class FizzBuzzWhizz:
             return "FizzBuzz"
         if self.is_divisible_by_3() and self.is_divisible_by_7():
             return "FizzWhizz"
+        if self.is_divisible_by_5() and self.is_divisible_by_7():
+            return "BuzzWhizz"
         if self.is_divisible_by_3():
             return "Fizz"
         if self.is_divisible_by_5():
